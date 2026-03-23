@@ -1,46 +1,29 @@
-# Defensive Publication
+# Hybrid Distributed Electromagnetic Acceleration Architecture
 
-Sentinel-X Planetary Digital Twin Infrastructure
+This repository contains a simulation-based digital twin of a multi-stage electromagnetic acceleration system.
 
-Author: Vadym Tsinderhoz  
-Publication Date: 10 February 2026
+## Core Idea
 
----
+Shift from:
 
-## Abstract
+* impulse-based acceleration
 
-This publication describes a planetary-scale digital twin infrastructure
-combining sensor networks, distributed computing, AI modeling,
-and real-time environmental data integration.
+To:
 
----
+* distributed energy-controlled acceleration
 
-## Architecture Layers
+## Key Innovations
 
-1. Global Sensor Network
-2. Distributed AI Compute Infrastructure
-3. Energy Infrastructure Monitoring
-4. Environmental Data Integration
-5. Planetary Simulation Engine
+* Multi-stage EM acceleration (Coil → Induction → Pulse)
+* Energy distribution over time
+* Energy Smoothness Index (ESI)
+* Simulation-first validation
 
----
+## Structure
 
-## Key Features
-
-• Real-time planetary monitoring  
-• Infrastructure resilience analysis  
-• Global environmental simulation  
-
----
-
-## Applications
-
-- Climate monitoring
-- Infrastructure planning
-- Disaster prediction systems
-
----
-
-## Defensive Publication Notice
-
-Public disclosure establishing prior art.
+* /core → physics engine
+* /models → system architectures
+* /simulation → execution
+* /metrics → evaluation (η, ESI)
+* /visualization → plots
+* /docs → whitepaper
